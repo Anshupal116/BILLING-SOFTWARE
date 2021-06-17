@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>Untitled</title>
+	 <meta charset="UTF-8"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="bill.css" type="text/css"/>
+ </head>
+	 <body>
+	<h1>Anshu Da Daba</h1>
+	<div class="form">
+	<form>
+	<fieldset>
+	<legend>Customer Details</legend>
+	<div  class="group">
+	<div  class="title">Name :</div>
+	<input type="text" id="name">
+	</div>
+		<div  class="group">
+	<div  class="title">Email :</div>
+	<input type="Email" id="email">
+	</div>
+	<div  class="group">
+	<div  class="title">Phone no. :</div>
+	<input type="number">
+	</div>
+	</fieldset>
+	</form>
+
+	<fieldset>
+	<legend>Bill Details</legend>
+		<div  class="group">
+	<div  class="title">Customer Name :</div>
+	<input type="text" disabled=""  id="cName">
+	</div>
+		<div  class="group">
+	<div  class="title">Email :</div>
+	<input type="email" disabled="" id="cEmail">
+	</div>
+	<div  class="group">
+		<table border="1px">
+		<tr>
+		<td>Food</td>
+		<td>Price ($)</td>
+		<td>Quantity</td>
+		<td>Amount</td>
+		</tr>
+		<tr>
+		<td  id="samosa" ></td>
+		<td id="Price"></td>
+		<td id="quantity"></td>
+		<td id="calculation"></td>
+     </tr>
+		</table>
+	</div>
+</fieldset>
+	<fieldset>
+	<legend>Food Details</legend>
+		<div  class="group">
+	<div  class="title">Samosa ($10) :</div>
+	<input type="number"  id="food">
+	</div>
+		<div  class="group">
+	<div class="title">Kachori ($20) :</div>
+	<input type="number">
+	</div>
+	<div  class="group">
+		<div  class="title">Meggie ($30) :</div>
+		<input type="number">
+	</div>
+</fieldset>
+</div>
+</br>
+<h2>Total Amount = $10</h2>
+<h1></h1>
+	 </body>
+	  <script src="bill.js"></script>
+ </html>
